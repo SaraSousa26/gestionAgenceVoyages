@@ -2,6 +2,9 @@ package com.inti.entities;
 
 import java.sql.Date;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Reservation {
 	private Long idVoyageur;
 	private Date dateReservation;
