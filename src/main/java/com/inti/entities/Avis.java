@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 @Entity
 public class Avis {
 	private Long idAvis;
-	private String commentaire;
+	private String commentairesss;
 	
 	public Avis() {
 	
@@ -13,7 +13,7 @@ public class Avis {
 
 	public Avis(Long idAvis, String commentaire) {
 		this.idAvis = idAvis;
-		this.commentaire = commentaire;
+		this.commentairesss = commentaire;
 	}
 
 	public Long getIdAvis() {
@@ -25,11 +25,11 @@ public class Avis {
 	}
 
 	public String getCommentaire() {
-		return commentaire;
+		return commentairesss;
 	}
 
 	public void setCommentaire(String commentaire) {
-		this.commentaire = commentaire;
+		this.commentairesss = commentaire;
 	}
 	
 	
