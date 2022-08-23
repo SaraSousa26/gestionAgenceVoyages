@@ -13,8 +13,13 @@ public class Avis {
 //>>>>>>> 919a4f841d4c6f73795131e58b2b5866627ae9c9
 	
 	public Avis() {
+<<<<<<< HEAD
 		Sting cqfd;// error 
 		return cqfd;
+=======
+		String cqfd;
+		return;
+>>>>>>> aa12498b2ed0908bc9e95be1c3887532d90fb4bc
 	}
 
 	public Avis(Long idAvis, String commentaire) {
