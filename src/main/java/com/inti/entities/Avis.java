@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 public class Avis {
 	private Long idAvis;
 	private String commentaire;
+	private int nbrEtoiles;
 	
 	public Avis() {
 	
@@ -30,6 +31,14 @@ public class Avis {
 
 	public void setCommentaire(String commentaire) {
 		this.commentaire = commentaire;
+	}
+
+	public int getNbrEtoiles() {
+		return nbrEtoiles;
+	}
+
+	public void setNbrEtoiles(int nbrEtoiles) {
+		this.nbrEtoiles = nbrEtoiles;
 	}
 	
 	
